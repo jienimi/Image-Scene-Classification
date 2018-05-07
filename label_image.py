@@ -69,4 +69,4 @@ for i in range(1, num_files + 1):
     sess.close()
 
 # Saving results as .csv for Kaggle submission.
-np.savetxt("test.csv", prediction_results, delimiter = ",", header = "Id,Label")
+np.savetxt("test.csv", prediction_results, delimiter = ",", header = "Id,Prediction")
