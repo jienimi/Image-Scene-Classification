@@ -1,3 +1,12 @@
+"""
+Image Scene Classifier Project.
+
+This script labels all test image using
+the existing trained graph files.
+
+Tausif S., 2016
+"""
+
 import numpy as np
 import os
 import tensorflow as tf
