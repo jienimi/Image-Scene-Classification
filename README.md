@@ -15,4 +15,13 @@ Dataset Description:
 * `train.tar.gz`
   * Contains 7000 images for training 
 
+Scripts Description:
+* `ImageOrganizer.m`
+  * Sorts training set into respective categories
+* `label_image.py`
+  * Labels any image (used for test set) by predicting on retrained model
+* `retrain.py`
+  * Retrains model via transfer learning and produces new retrained graph for reuse 
+
+
 Tausif S., 2016
